@@ -1,0 +1,24 @@
+/* path for vendor block*/
+@import url("../vendor/normalize.css");
+/* path for recipes block*/
+@import url("../blocks/recipes.css");
+/* path for header block*/
+@import url("../blocks/header.css");
+/* path for vform block*/
+@import url("../blocks/form.css");
+/* path for footer block*/
+@import url("../blocks/footer.css");
+/* path for reservation block*/
+@import url("../blocks/reservation.css");
+/* path for about block*/
+@import url("../blocks/about.css");
+/* path for nav block*/
+@import url("../blocks/nav.css");
+/* path for menu block*/
+@import url("../blocks/menu.css");
+/* path for logo block*/
+@import url("../blocks/logo.css");
+/* path for card block*/
+@import url("../blocks/card.css");
+/* path for page block*/
+@import url("../blocks/page.css");
