@@ -4,6 +4,8 @@
 	padding-top: 40px;
 	padding-left: 200px;
 	padding-right: 200px;
+	font-family: 'Inter';
+    font-style: normal;
 }
 
 .profile__image {
@@ -26,6 +28,8 @@
 	font-weight: 500;
 	grid-area: title;
 	margin: 0 0 16px;
+	font-family: 'Inter';
+    font-style: normal;
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	overflow: hidden;
@@ -47,6 +51,8 @@
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	overflow: hidden;
+	font-family: 'Inter';
+    font-style: normal;
 }
 
 .profile__add-button {
