@@ -1,7 +1,7 @@
 .header {
     margin-top: 45px;
     padding-bottom: 77.25px;
-    display:grid
+    display:grid;
   }
   @media screen and (min-width: 320px) and (max-width: 768px) {
     .header {
