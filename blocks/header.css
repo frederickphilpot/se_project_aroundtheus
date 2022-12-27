@@ -1,8 +1,12 @@
 .header {
-    margin-top: 45px;
+    padding-top: 45px;
     padding-bottom: 77.25px;
     display:grid;
+    border-bottom: rgba(84, 84, 84, 70) solid 1px;
+    padding-bottom: 41px;
+   
   }
+
   @media screen and (min-width: 320px) and (max-width: 768px) {
     .header {
      width: 126px;
