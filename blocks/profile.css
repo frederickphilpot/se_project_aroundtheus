@@ -34,7 +34,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  line-height: 33px;
+  line-height: 48px;
 }
 
 .profile__edit-button {
@@ -96,9 +96,7 @@
   .profile__title {
     margin-left: 62px;
     font-size: 22px;
-    grid-area: title;
-    font-family: "Inter", sans-serif;
-    font-style: normal;
+    line-height: 27px;
   }
 
   .profile__description {
@@ -112,8 +110,6 @@
     overflow: hidden;
     display: flex;
     justify-self: center;
-    font-family: "Inter", sans-serif;
-    font-style: normal;
     max-width: 282px;
   }
 

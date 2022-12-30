@@ -7,9 +7,10 @@
 }
 
 .footer__copy {
+	margin-bottom: 0;
 	color: #545454;
 	font-size: 18px;
-	line-height: 1.2px;
+	line-height: 22px;
 	font-weight: 400;
 	font-family:Inter, sans-serif;
 	margin-top: 67px;
@@ -25,5 +26,7 @@
 	  margin-left: 19px;
 	  padding-top: 48px;
 	  padding-bottom: 36px;
+	  font-size: 14px;
+	  line-height: 17px;
 	}
   }
