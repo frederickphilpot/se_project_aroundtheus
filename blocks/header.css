@@ -1,7 +1,8 @@
 .header {
     padding-top: 45px;
-    padding-bottom: 77.25px;
+    padding-bottom: 41px;
     display:grid;
+
     border-bottom: rgba(84, 84, 84, 70) solid 1px;
        
   }
@@ -13,11 +14,8 @@
      margin-left: 27px;
      margin-top: 28px;
      margin-bottom: 70.25px;
+     border-bottom: rgba(84, 84, 84, 70) solid 1px;
     }
-    .header__title {
-      padding-left: 27px;
-      padding-top: 28px;
-      margin-right: 167px;
-    }
+    
   }
   
