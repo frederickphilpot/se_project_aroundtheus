@@ -4,7 +4,7 @@
   font-family: "Inter", sans-serif;
   font-style: normal;
   align-items: center;
-  margin: 0, auto;
+  margin: 0 auto;
   margin-top: 36.25px;
   padding-left: 320px;
 }
@@ -16,7 +16,7 @@
   object-fit: cover;
   background-position: center;
   margin-right: 24px;
-  margin-bottom: 47.25;
+  margin-bottom: 47.25px;
 }
 
 .profile__info {
@@ -126,18 +126,7 @@
     margin-left: 0;
     margin-bottom: 36px;
   }
-  .profile__edit-button:hover {
-    opacity: 0.6;
-    cursor: pointer;
-  
-  }
-
-  .profile__edit-image {
-    width: 7.5px;
-    height: 7.5px;
-    padding: 1px 1px 2px 2px;
-  }
-
+ 
   .profile__add-button {
     width: 282px;
     justify-self: center;
@@ -145,12 +134,7 @@
     padding-left: 19px;
     padding-right: 19px;
   }
-  .profile__add-button:hover {
-    opacity: 0.6;
-    cursor: pointer;
-  
-  }
-}
+ }
 
 @media screen and (min-width: 767px) and (max-width: 1279px) {
   .profile {
