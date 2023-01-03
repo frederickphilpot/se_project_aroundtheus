@@ -96,12 +96,12 @@
   }
 
   .profile__title {
-    margin-left: 62px;
+    margin-left: 50px;
     font-size: 22px;
     line-height: 27px;
     max-width: 196px;
-    margin-left: 19px;
-  }
+    padding-top: 26.25px;
+    }
 
   .profile__description {
     margin: 0;
