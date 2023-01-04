@@ -1,6 +1,7 @@
-.header {
+.header__section {
   padding-top: 45px;
   padding-bottom: 41px;
+  padding-left: 200px;
   display: grid;
   border-bottom: rgba(84, 84, 84, 70) solid 1px;
   }
@@ -9,7 +10,7 @@
 
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  .header {
+  .header__section {
     width: 320px;
     height: 27px;
     margin-left: 0px;
