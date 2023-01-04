@@ -80,6 +80,9 @@
   cursor: pointer;
 
 }
+.header-page__section{
+  
+}
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
       .profile {
