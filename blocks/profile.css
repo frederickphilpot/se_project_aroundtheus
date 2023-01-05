@@ -93,10 +93,11 @@
   
     .profile__image {
       justify-self: center;
-      width: 127.5px;
+      width: 168.75px;
       height: 127.5px;
       padding-left: 78.5px;
       padding-right: 72.75px;
+      
     }
   .profile__title {
     margin-left: 50px;
@@ -112,9 +113,6 @@
     margin-left: 19px;
     font-size: 14px;
     padding-bottom: 36px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
     display: flex;
     justify-self: center;
     max-width: 282px;
