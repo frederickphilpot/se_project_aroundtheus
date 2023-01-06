@@ -11,8 +11,7 @@
 .profile__info {
   display: grid;
   grid-template-areas: "title button" "description description";
-  margin-bottom: 47.25px;
-}
+  }
 .profile__edit-button {
   background: transparent url(../images/edit_button.svg) center no-repeat;
   height: 24px;
@@ -58,7 +57,6 @@
 .profile__description {
   font-family: "Inter", Arial, sans-serif;
   font-size: 18px;
-  line-height: 22px;
   font-weight: 400;
   grid-template-areas: "description";
   text-overflow: ellipsis;
@@ -85,7 +83,6 @@
     justify-self: center;
     font-size: 14px;
     margin-top: 14px;
-    margin-bottom: 36px;
     max-width: 282px;
     height: 14px;
   }
@@ -109,6 +106,7 @@
   }
   .profile__add-button {
     width: 282px;
+    margin-top: 36px;
     margin-right: 19px;
     margin-left: 19px;
   }
