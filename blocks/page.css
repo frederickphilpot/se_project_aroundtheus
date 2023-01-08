@@ -19,9 +19,13 @@
     .page {
       display: flex;
       flex-direction: column;
+      
     }
-    .page__content {
+    .page__content{
       width: calc(100% - 40px);
       margin: 0 19px;
+      padding-left: 19px;
+      padding-right: 19px;
+      justify-content: center;
     }
   }
