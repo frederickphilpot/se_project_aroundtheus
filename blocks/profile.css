@@ -6,7 +6,7 @@
   position: relative;
   margin: 0 auto;
   margin-top: 36.25px;
-  margin-left: 0;
+  
 
 }
 
@@ -69,12 +69,13 @@
 }
 .profile__image {
   height: 120px;
-  width: 120px;
-  border-radius: 60%;
-  object-fit: cover;
-  background-position: center;
-  margin-right: ;
-  margin-left: 177.5px;
+	width: 120px;
+	border-radius: 60%;
+	object-fit: cover;
+	background-position: center;
+	margin-right: 24px;
+ 
+  
   
 }
 
