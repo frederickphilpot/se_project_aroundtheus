@@ -94,9 +94,7 @@
     line-height: 16.94px;
   }
   .profile__image {
-    justify-self: center;
-    width: 127.5px;
-    height: 127.5px;
+    margin: 38px 0 0;
   }
   .profile__title {
     font-size: 22px;
