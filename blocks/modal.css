@@ -1,4 +1,4 @@
-.modal {
+..modal {
 	position: fixed;
 	background-color: rgba(0, 0, 0, 0.5);
 	top: 0;
@@ -15,7 +15,6 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
 }
 
 .modal__container {
@@ -41,6 +40,11 @@
 	left: calc(100% + 5px);
 	cursor: pointer;
 }
+
+.modal__close:hover {
+opacity: 0.6;
+}
+
 .modal__heading {
 	color: black;
 	font-weight: 900;
@@ -64,6 +68,11 @@
 	color: #fff;
 	margin-top: 18px;
 	padding: 0;
+	cursor: pointer;
+}
+
+.modal__button:hover {
+	opacity: 0.8;
 }
 
 @media screen and (min-width: 320px) and (max-width: 660px) {
@@ -74,6 +83,8 @@
 	.modal__close {
 		width: 26px;
 		height: 26px;
+		left: calc(100% - 30px);
+		margin-bottom: 13px;
 	}
 
 	.modal__button {
