@@ -1,176 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Around the US" />
-    <meta name="author" content="Frederick Philpot" />
-    <meta name="keywords" content="us, parks, nationalparks" />
-    <title>Around the U.S</title>
-    <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
-  </head>
-  <body class="page">
-     <header class="header">
-        <img src="./images/around_logo.svg" alt="Around the US logo" class="header__logo"/>
-         </header>
-    <div class="page__content">
-      <!-- Profile starts -->
-      <main class="content">
-        <section class="profile">
-          <img
-            src="./images/jacques-cousteau.jpg"
-            alt="Avatar"
-            class="profile__image"
-          />
-          <div class="profile__info">
-            <h1 class="profile__title">Jacques Cousteau</h1>
-            <button class="profile__edit-button" id="profile-edit-button" type="button"></button>
-            <p class="profile__description">Explorer</p>
-          </div>
-          <button class="profile__add-button" type="button"></button>
-        </section>
-        
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Around the US" />
+		<meta name="author" content="Frederick Philpot" />
+		<meta name="keywords" content="us, parks, nationalparks" />
+		<title>Around the U.S</title>
+		<link rel="stylesheet" href="./pages/index.css" />
+		<link rel="icon" type="image/x-icon" href="./favicon.ico" />
+	</head>
+	<body class="page">
+		<div class="page__content">
+			<header class="header">
+				<img
+					class="header__image"
+					src="./images/around_logo.svg"
+					alt="Around the U.S. Logo"
+				/>
+			</header>
+			<main class="content">
+				<section class="profile page__section">
+					<img
+						class="profile__image"
+						src="./images/jacques-cousteau.jpg"
+						alt="Avatar"
+					/>
+					<div class="profile__info">
+						<h1 class="profile__title" id="profile-title">Jacques Cousteau</h1>
+						<button class="profile__edit-button" id="profile-edit-button" type="button"></button>
+						<p class="profile__description" id="profile-description">Explorer</p>
+					</div>
+					<button class="profile__add-button" id="profile-add-button" type="button"></button>
+				</section>
+				<section class="cards page__section">
+					<ul class="cards__list">
+					</ul>
+				</section>
+			</main>
+			<footer class="footer page__section">
+				<p class="footer__copyright">© 2022 Around The U.S.</p>
+			</footer>
+		</div>
+		<div class="modal" id="profile-edit-modal">
+			<div class="modal__container">
+				<button class="modal__close" id="modal-close-button"></button>
+				<p class="modal__heading">Edit profile</p>
+				<form class="modal__form" id="profile-edit-form">
+					<input
+					class="modal__form-input"
+						type="text"
+						name="title"
+						placeholder="Name"
+						id="profile-title-input"
+						required
+					/>
+					<input
+					class="modal__form-input"
+						type="text"
+						name="description"
+						placeholder="Description"
+						id="profile-description-input"
+						required
+					/>
+					<button class="modal__button">Save</button>
+				</form>
+			</div>
+			</div>
+			
+			</div>
+			<div class="modal" id="card-image-modal">
+				<div class="modal__container-card">
+					<img class="modal__image-card" id="card-modal-image" src="#" alt=""/>
+					<p class="modal__caption-card" id="card-modal-caption"></p>
+					<button class="modal__close" id="card-image-close"></button>
+				</div>
+			</div>
 
-        <!-- Destination cards starts-->
-
-        <section class="cards page__section">
-          <ul class="cards__list">
-            <li class="card">
-              <img
-                src="./images/yosemite-valley.png"
-                class="card__image"
-                alt="yosemite-valley"
-              />
-              <div class="card__description">
-                <h2 class="card__title">Yosemite Valley</h2>
-                <button class="card__like-button" type="button"></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/lake-louise.png"
-                class="card__image"
-                alt="lake-louise"
-              />
-              <div class="card__description">
-                <h2 class="card__title">Lake Louise</h2>
-                <button class="card__like-button" type="button"></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/bald-mountains.png"
-                class="card__image"
-                alt="bald-mountains"
-              />
-              <div class="card__description">
-                <h2 class="card__title">Bald Mountains</h2>
-                <button class="card__like-button" type="button"></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/latemar.png"
-                class="card__image"
-                alt="latemar"
-              />
-              <div class="card__description">
-                <h2 class="card__title">Latemar</h2>
-                <button class="card__like-button" type="button"></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/vanoise-national-park.png"
-                class="card__image"
-                alt="vanoise-national-park"
-              />
-              <div class="card__description">
-                <h2 class="card__title">Vanoise National Park</h2>
-                <button class="card__like-button" type="button"></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/lago-di-braies.png"
-                class="card__image"
-                alt="lago-di-braies"
-              />
-              <div class="card__description">
-                <h2 class="card__title">Lago di Braies</h2>
-                <button class="card__like-button" type="button"></button>
-              </div>
-            </li>
-          </ul>
-        </section>
-      </main>
-      <!--Footer starts-->
-      <<div class="modal" id="profile-edit-modal">
-        <div class="modal__container">
-          <button class="modal__close" id="modal-close-button"></button>
-          <p class="modal__heading">Edit profile</p>
-          <form class="modal__form">
-            <input
-              class="form__input"
-              type="text"
-              name="title"
-              placeholder="Name"
-              id="profile-title-input"
-              required
-            />
-            <input
-              class="form__input"
-              type="text"
-              name="description"
-              placeholder="Description"
-              id="profile-description-input"
-              required
-            />
-            <button class="modal__button">Save</button>
-          </form>
-        </div>
-        <div class="modal" id="card-add-modal">
-          <div class="modal__container">
-            <button class="modal__close" id="modal-close-button"></button>
-            <p class="modal__heading">New Place</p>
-            <form class="modal__form">
-              <input
-                class="form__input"
-                type="text"
-                name="title"
-                placeholder="Title"
-                id="card-title-input"
-                required
-              />
-              <input
-                class="form__input"
-                type="text"
-                name="link"
-                placeholder="Image link"
-                id="card-image-input"
-                required
-              />
-              <button class="modal__button">Create</button>
-            </form>
-          </div>
-      </div>
-  
-      <template id="card-template">
-        <li class="card">
-          <img
-            class="card__image"
-            src=""
-            alt=""
-            id="card-image"
-          />
-          <div class="card__description">
-            <h2 class="card__title" id="card-title"></h2>
-            <button class="card__like-button" type="button"></button>
-          </div>
-        </li>
-  
-      </template>
-    <script src="./scripts/index.js" defer></script>
-  </body>
+		<template id="card-template">
+			<li class="card">
+				<button class="card__delete-button" id="card-delete-button"  type="button"></button>
+				<img
+					class="card__image"
+					src="#"
+					alt=""
+					id="card-image"
+				/>
+				<div class="card__description">
+					<h2 class="card__title" id="card-title"></h2>
+					<button class="card__like-button" type="button"></button>
+				</div>
+			</li>
+		</template>
+		<script src="./scripts/index.js" defer></script> 
+	</body>
 </html>

@@ -88,4 +88,3 @@ initialCards.forEach((cardData) => {
   const cardElement = getCardElement(cardData);
   cardListElement.append(cardElement);
 });
-
