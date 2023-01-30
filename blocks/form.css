@@ -1,11 +1,10 @@
 .form__input {
-	height: 50px;
-	border-top: 1px;
-	border-right: 1px;
-	border-left: 1px;
-	border-color: rgba(0, 0, 0, 0.2);
-	margin-bottom: 30px;
-	padding: 0;
+	font-family: "Inter", "Arial", sans-serif;
+	border: none;
+	height: 14px;
+	padding-top: 15.74px;
+	padding-bottom: 13.26px;
+	border-bottom: 0.4px solid rgba(84, 84, 84, 0.7);
 }
 
 .form__input::placeholder {

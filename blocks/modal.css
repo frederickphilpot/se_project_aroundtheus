@@ -59,36 +59,24 @@ opacity: 0.6;
 	margin-top: 54px;
 }
 .modal__form-title {
-	margin-bottom: 30px;
-	width: 358px;
+	border: none;
+	border-bottom: 1px solid #000000;
 	font-family: "Inter", Arial, sans-serif;
+	font-size: 14px;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 14px;
 	line-height: 17px;
-	border-top: 0;
-	border-left: 0;
-	border-right: 0;
-	border-bottom: 1px solid rgba(84, 84, 84, 0.2);
-	padding: 0;	
-	margin-top: 15px;
-	box-sizing: border-box;
-	height: 48px;
+	
 }
 
 .modal__form-description{
-	margin-bottom: 48px;
-	width: 358px;
-	font-family: "Inter", Arial, sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 17px;
-	border-top: 0;
-	border-left: 0;
-	border-right: 0;
-	border-bottom: 1px solid rgba(84, 84, 84, 0.2);
-	padding: 0;
+	margin-bottom: 57.08px;
+	border: none;
+	border-top: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #000000;
 
 }
 
