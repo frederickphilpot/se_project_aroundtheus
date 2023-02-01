@@ -61,8 +61,6 @@ opacity: 0.6;
 .modal__form-title {
 	margin-bottom: 30px;
 	width: 358px;
-	font-family: "Inter", 
-	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 17px;
@@ -78,12 +76,10 @@ opacity: 0.6;
 }
 
 .modal__form-description{
-	
-	font-family: "Inter", "Arial", sans-serif;
 	border: none;
 	height: 14px;
 	padding-top: 15.74px;
-	padding-bottom: 13.26px;
+	margin-bottom: 13.26px;
 	border-bottom: 0.4px solid rgba(84, 84, 84, 0.7);
 	width: 358px;
 	
@@ -102,6 +98,7 @@ opacity: 0.6;
 	width: 358px;
 	margin-top: 48px;
 	cursor: pointer;
+	border: 0;
 }
 
 .modal__button:hover {

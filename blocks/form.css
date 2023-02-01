@@ -5,6 +5,7 @@
 	padding-top: 15.74px;
 	padding-bottom: 13.26px;
 	border-bottom: 0.4px solid rgba(84, 84, 84, 0.7);
+	width:100%;
 }
 
 .form__input::placeholder {
