@@ -74,6 +74,7 @@ opacity: 0.6;
 	margin-top: 15px;
 	box-sizing: border-box;
 	height: 48px;
+	width: 100%;
 	
 }
 
@@ -81,9 +82,9 @@ opacity: 0.6;
 	border: none;
 	height: 14px;
 	padding-top: 15.74px;
-	margin-bottom: 13.26px;
+	margin-bottom: 13.34px;
 	border-bottom: 0.4px solid rgba(84, 84, 84, 0.7);
-	width: 358px;
+	width: 100%;
 	
 
 }
@@ -99,6 +100,7 @@ opacity: 0.6;
 	margin-top: 48px;
 	cursor: pointer;
 	border: 0;
+	width: 100%;
 }
 
 .modal__button:hover {
