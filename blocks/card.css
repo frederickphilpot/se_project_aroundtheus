@@ -39,6 +39,20 @@
     cursor: pointer;
 
   }
+  card__delete-button {
+    border: none;
+    background: transparent;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    top: 18px;
+    right: 15px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  .card__delete-button:hover {
+    opacity: 0.6;
+  }
   .card__title {
     margin: 0;
     font-family: "Inter", Arial, sans-serif;

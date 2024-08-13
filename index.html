@@ -69,13 +69,47 @@
 			</div>
 			
 			</div>
-			<div class="modal" id="card-image-modal">
-				<div class="modal__container-card">
-					<img class="modal__image-card" id="card-modal-image" src="#" alt=""/>
-					<p class="modal__caption-card" id="card-modal-caption"></p>
-					<button class="modal__close" id="card-image-close"></button>
+			 <!-- Add Card Modal-->
+			 <div class="modal" id="add-card-modal">
+				<div class="modal__container">
+				  <button
+					class="modal__close"
+					type="button"
+					id="card__close-modal"
+				  ></button>
+				  <form class="modal__form" id="add-card-form">
+					<h3 class="modal__heading">New Place</h3>
+					<fieldset class="modal__form-fieldset">
+					  <input
+						class="modal__form-input modal__input-type-title"
+						type="text"
+						name="title"
+						placeholder="Title"
+					  />
+					  <span class="modal__form-divider"></span>
+					  <input
+						class="modal__form-input modal__input-type-url"
+						type="text"
+						name="url"
+						placeholder="Image URL"
+					  />
+					  <span class="modal__form-divider"></span>
+					  <button type="save" class="modal__button">Save</button>
+					</fieldset>
+				  </form>
 				</div>
+		  <!--Preview Modal-->
+		  <div class="modal" id="preview-image-modal">
+			<div class="modal__preview">
+			  <img src="#" alt="modal-preview-img" class="modal__preview-image" />
+			  <h1 class="modal__footer"></h1>
+			  <button
+				class="modal__close-button"
+				type="button"
+				id="preview-close-button"
+			  ></button>
 			</div>
+		  </div>
 
 		<template id="card-template">
 			<li class="card">
